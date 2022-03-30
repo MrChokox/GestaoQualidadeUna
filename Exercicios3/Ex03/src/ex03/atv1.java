@@ -1,10 +1,8 @@
-
-package ex01.pkg1;
+package ex03;
 
 import java.util.Scanner;
 
-public class Ex02_1 {
-
+public class atv1 {
     public static void main(String[] args) {
         int num1,num2,num3;        
         Scanner sc = new Scanner(System.in);        
@@ -20,5 +18,4 @@ public class Ex02_1 {
         double total = (num1 + num2 + num3)/3;
         System.out.println("A média é " + total);
     }
-    
 }
