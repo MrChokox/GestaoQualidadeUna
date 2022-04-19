@@ -23,11 +23,7 @@ public class Ex03 {
             if(num < menor)
                 menor = num;
         }
-//        System.out.println("Vetor: " + Arrays.toString(vetor));
-        for (int i = 0; i < vetor.length; i++) {
-            if(vetor[i] < 0)
-                System.out.println("Posição: " + i + " valor: " + vetor[i]);
-        }
-        System.out.println("O maior número é: " + maior + " e o menor valor é: " + menor);
+       System.out.println("Vetor: " + Arrays.toString(vetor));        
+       System.out.println("O maior número é: " + maior + " e o menor valor é: " + menor);
     }
 }
